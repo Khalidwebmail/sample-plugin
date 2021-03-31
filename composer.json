@@ -1,0 +1,19 @@
+{
+    "name": "khalidahmed/alecad-plugin",
+    "description": "Simple plugin for practice",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Khalidwebmail",
+            "email": "csewebmail@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Alecad\\": "includes/"
+        }
+    }
+}
